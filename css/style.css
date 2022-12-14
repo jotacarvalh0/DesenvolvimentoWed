@@ -1,0 +1,115 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+* {
+    margin: auto;
+}
+
+header {
+    background-color: #F1F5F9;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+}
+
+.logo{
+    margin: 0px 0px 0px -120px;
+}
+
+.user {
+    display: flex;
+    margin: auto;
+    margin: 0px 0px 0px 100px;
+}
+main {
+    margin: 80px 0px 80px 0px;
+    background-color: #1F2937;
+}
+
+form input[type="text"] {
+    background-color: #64748B;
+    height: 40px;
+    width: 365px;
+    margin: 10px 3px 10px 00px;
+    border: 0px;
+    color: #F1F5F9;
+    padding: 2px;
+}
+
+form input::placeholder {
+    color: #3A5479;
+    font-size: 15px;
+}
+
+form input[type="submit"] {
+    background-color: #4A56F9;
+    color: #F1F5F9;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    width: 123px;
+    border: 0px;
+}
+
+li {
+    background-color: #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 5px 0px 5px 0px;
+}
+
+ul .figure {
+    margin: 0;
+}
+
+ul figure:nth-child(2) {
+    width: 70%;
+}
+
+main ul li h3 {
+    font-size: 40px;
+}
+main ul li:nth-child(n-3){
+    color: #4A56F9
+}
+main ul li:nth-child(n+4){
+    color: #BE123C;
+}
+main ul li h4{
+    color: #1F2937;
+}
+main ul li p{
+    color: #1F2937;
+}
+footer {
+    padding: 40px 0px 40px 0px;
+    color: #64748B;
+    text-align: center;
+    font-size: 14px;
+}
